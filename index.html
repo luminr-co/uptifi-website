@@ -1,11 +1,833 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- WP_HEAD() START -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900|Source+Sans+Pro:100,200,300,400,500,600,700,800,900|Montserrat:100,200,300,400,500,600,700,800,900">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900|Source+Sans+Pro:100,200,300,400,500,600,700,800,900|Montserrat:100,200,300,400,500,600,700,800,900">
+<meta name="robots" content="max-image-preview:large">
+<title>uptifi</title>
+<link rel="alternate" type="application/rss+xml" title="uptifi &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="uptifi &raquo; Comments Feed" href="/comments/feed/">
+<style id="wp-block-library-inline-css">:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px;--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color)}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}</style>
+<style id="classic-theme-styles-inline-css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #f9f9f9;--wp--preset--color--base-2: #ffffff;--wp--preset--color--contrast: #111111;--wp--preset--color--contrast-2: #636363;--wp--preset--color--contrast-3: #A4A4A4;--wp--preset--color--accent: #cfcabe;--wp--preset--color--accent-2: #c2a990;--wp--preset--color--accent-3: #d8613c;--wp--preset--color--accent-4: #b1c5a4;--wp--preset--color--accent-5: #b5bdbc;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--gradient-1: linear-gradient(to bottom, #cfcabe 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-2: linear-gradient(to bottom, #C2A990 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-3: linear-gradient(to bottom, #D8613C 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-4: linear-gradient(to bottom, #B1C5A4 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-5: linear-gradient(to bottom, #B5BDBC 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-6: linear-gradient(to bottom, #A4A4A4 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-7: linear-gradient(to bottom, #cfcabe 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-8: linear-gradient(to bottom, #C2A990 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-9: linear-gradient(to bottom, #D8613C 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-10: linear-gradient(to bottom, #B1C5A4 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-11: linear-gradient(to bottom, #B5BDBC 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-12: linear-gradient(to bottom, #A4A4A4 50%, #F9F9F9 50%);--wp--preset--font-size--small: 0.9rem;--wp--preset--font-size--medium: 1.05rem;--wp--preset--font-size--large: clamp(1.39rem, 1.39rem + ((1vw - 0.2rem) * 0.767), 1.85rem);--wp--preset--font-size--x-large: clamp(1.85rem, 1.85rem + ((1vw - 0.2rem) * 1.083), 2.5rem);--wp--preset--font-size--xx-large: clamp(2.5rem, 2.5rem + ((1vw - 0.2rem) * 1.283), 3.27rem);--wp--preset--font-family--body: "Inter", sans-serif;--wp--preset--font-family--heading: Cardo;--wp--preset--font-family--system-sans-serif: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;--wp--preset--font-family--system-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;--wp--preset--spacing--20: min(1.5rem, 2vw);--wp--preset--spacing--30: min(2.5rem, 3vw);--wp--preset--spacing--40: min(4rem, 5vw);--wp--preset--spacing--50: min(6.5rem, 8vw);--wp--preset--spacing--60: min(10.5rem, 13vw);--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--spacing--10: 1rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 1.2rem;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 1.2rem;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 1.2rem;}:root :where(.is-layout-grid){gap: 1.2rem;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}</style>
+<link rel="stylesheet" id="oxygen-css" href="/wp-content/plugins/oxygen/component-framework/oxygen.css?ver=4.7.1" media="all">
+<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/pages/12">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.6.2">
+<link rel="canonical" href="/">
+<link rel="shortlink" href="/">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2F#038;format=xml">
+<style id="wp-fonts-local">@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/cardo/cardo_normal_400.woff2') format('woff2');}
+@font-face{font-family:Cardo;font-style:italic;font-weight:400;font-display:fallback;src:url('/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/cardo/cardo_italic_400.woff2') format('woff2');}
+@font-face{font-family:Cardo;font-style:normal;font-weight:700;font-display:fallback;src:url('/wp-content/themes/oxygen-is-not-a-theme/assets/fonts/cardo/cardo_normal_700.woff2') format('woff2');}</style>
+<link rel="stylesheet" id="oxygen-cache-33-css" href="/wp-content/uploads/oxygen/css/33.css?cache=1730227021#038;ver=6.6.2" media="all">
+<link rel="stylesheet" id="oxygen-cache-12-css" href="/wp-content/uploads/oxygen/css/12.css?cache=1730234171#038;ver=6.6.2" media="all">
+<link rel="stylesheet" id="oxygen-universal-styles-css" href="/wp-content/uploads/oxygen/css/universal.css?cache=1730234170#038;ver=6.6.2" media="all">
+<!-- END OF WP_HEAD() -->
 </head>
-<body>
-    <h1>Hi!!!</h1>
+<body class="home page-template-default page page-id-12 wp-embed-responsive  oxygen-body">
+
+
+
+
+						<div id="div_block-4-12" class="ct-div-block">
+<div id="div_block-5-12" class="ct-div-block">
+<div id="div_block-9-12" class="ct-div-block">
+<a id="div_block-10-12" class="ct-link" href="/"><img id="image-18-12" alt="" src="/wp-content/uploads/2024/10/seo-logo.svg" class="ct-image" sizes="(max-width: 230px) 100vw, 230px"></a><div id="div_block-11-12" class="ct-div-block">
+		<div id="-pro-menu-22-12" class="oxy-pro-menu clash-display customLinks ">
+<div class="oxy-pro-menu-mobile-open-icon " data-off-canvas-alignment="">
+<svg id="-pro-menu-22-12-open-icon"><use xlink:href="#FontAwesomeicon-ellipsis-v"></use></svg>Menu</div>
+
+                
+        <div class="oxy-pro-menu-container  oxy-pro-menu-dropdown-links-visible-on-mobile oxy-pro-menu-dropdown-links-toggle oxy-pro-menu-show-dropdown" data-aos-duration="400" data-oxy-pro-menu-dropdown-animation="fade-up" data-oxy-pro-menu-dropdown-animation-duration="0.4" data-entire-parent-toggles-dropdown="true" data-oxy-pro-menu-dropdown-links-on-mobile="toggle">
+             
+            <div class="menu-main-menu-container"><ul id="menu-main-menu" class="oxy-pro-menu-list">
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-12 current_page_item menu-item-28"><a href="/" aria-current="page">Homepage</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="/about-us/">About Us</a></li>
+<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="/case-studies/">Case Studies</a></li>
+</ul></div>
+            <div class="oxy-pro-menu-mobile-close-icon">
+<svg id="svg--pro-menu-22-12"><use xlink:href="#FontAwesomeicon-close"></use></svg>close</div>
+
+        </div>
+
+        </div>
+
+		<script type="text/javascript">
+			jQuery('#-pro-menu-22-12 .oxy-pro-menu-show-dropdown .menu-item-has-children > a', 'body').each(function(){
+                jQuery(this).append('<div class="oxy-pro-menu-dropdown-icon-click-area"><svg class="oxy-pro-menu-dropdown-icon"><use xlink:href="#FontAwesomeicon-arrow-circle-o-down"><\/use><\/svg><\/div>');
+            });
+            jQuery('#-pro-menu-22-12 .oxy-pro-menu-show-dropdown .menu-item:not(.menu-item-has-children) > a', 'body').each(function(){
+                jQuery(this).append('<div class="oxy-pro-menu-dropdown-icon-click-area"><\/div>');
+            });			</script><div id="div_block-16-12" class="ct-div-block"><a id="link_button-17-12" class="ct-link-button clash-display" href="http://" target="_self">Book your free consultation</a></div>
+</div>
+</div>
+<div id="div_block-25-12" class="ct-div-block">
+<div id="text_block-27-12" class="ct-text-block clash-display heading-texts"> <span id="span-1366-12" class="ct-span heading-span">Get Found , Get Sales:<br></span> The SEO Partner Built for <span id="span-1369-12" class="ct-span heading-span">Ecom Brands</span><br>
+</div>
+<div id="text_block-33-12" class="ct-text-block general-sans body-text">Most ecommerce brands struggle with visibility. We specialize in transforming ecommerce brands like yours by focusing on what matters: measurable growth and sustainable traffic. With our tested strategies, you’ll see the results that paid ads just can’t match.</div>
+<div id="div_block-16-12" class="ct-div-block"><a id="link_button-17-12" class="ct-link-button clash-display" href="http://" target="_self">Book your free consultation</a></div>
+<img id="image-39-12" alt="" src="/wp-content/uploads/2024/10/seohero.png" class="ct-image" srcset="/wp-content/uploads/2024/10/seohero.png 3936w, /wp-content/uploads/2024/10/seohero-300x166.png 300w, /wp-content/uploads/2024/10/seohero-1024x566.png 1024w, /wp-content/uploads/2024/10/seohero-768x425.png 768w, /wp-content/uploads/2024/10/seohero-1536x849.png 1536w, /wp-content/uploads/2024/10/seohero-2048x1132.png 2048w" sizes="(max-width: 3936px) 100vw, 3936px">
+</div>
+<div id="div_block-40-12" class="ct-div-block">
+<div id="text_block-43-12" class="ct-text-block clash-display heading-texts">
+<span id="span-46-12" class="ct-span heading-span">Trusted</span> By</div>
+<div id="div_block-49-12" class="ct-div-block"><div id="div_block-50-12" class="ct-div-block luminr-wrapper">
+<div id="div_block-51-12" class="ct-div-block luminr-item item1"><img id="image-52-12" alt="" src="/wp-content/uploads/2024/10/62de296de724d7c356615169_image001-2-p-500.png" class="ct-image" sizes="(max-width: 159px) 100vw, 159px"></div>
+<div id="div_block-53-12" class="ct-div-block luminr-item item2"><img id="image-54-12" alt="" src="/wp-content/uploads/2024/10/bizmandu-logo.png" class="ct-image" srcset="/wp-content/uploads/2024/10/bizmandu-logo.png 346w, /wp-content/uploads/2024/10/bizmandu-logo-300x59.png 300w" sizes="(max-width: 346px) 100vw, 346px"></div>
+<div id="div_block-55-12" class="ct-div-block luminr-item item3"><img id="image-56-12" alt="" src="/wp-content/uploads/2024/10/image-3.png" class="ct-image" srcset="/wp-content/uploads/2024/10/image-3.png 310w, /wp-content/uploads/2024/10/image-3-300x164.png 300w" sizes="(max-width: 310px) 100vw, 310px"></div>
+<div id="div_block-57-12" class="ct-div-block luminr-item item4"><img id="image-58-12" alt="" src="/wp-content/uploads/2024/10/image-4.png" class="ct-image" srcset="/wp-content/uploads/2024/10/image-4.png 169w, /wp-content/uploads/2024/10/image-4-150x150.png 150w" sizes="(max-width: 169px) 100vw, 169px"></div>
+<div id="div_block-59-12" class="ct-div-block luminr-item item5"><img id="image-60-12" alt="" src="/wp-content/uploads/2024/10/image-6.png" class="ct-image" srcset="/wp-content/uploads/2024/10/image-6.png 169w, /wp-content/uploads/2024/10/image-6-150x150.png 150w" sizes="(max-width: 169px) 100vw, 169px"></div>
+<div id="code_block-85-12" class="ct-code-block"><!-- --></div>
+</div></div>
+</div>
+</div>
+<section id="section-518-12" class=" ct-section "><div class="ct-section-inner-wrap">
+<div id="div_block-519-12" class="ct-div-block">
+<div id="text_block-520-12" class="ct-text-block clash-display heading-texts">You’re <span id="span-1376-12" class="ct-span heading-span">doomed</span> if you are not doing SEO</div>
+<div id="text_block-522-12" class="ct-text-block general-sans body-text">92% of global traffic comes from organic search from Google.<br>And, 75% of users never scroll past the first page of search results.<br>If you are not visible on page 1, and proper SEO strategy has not been implemented<br>You are missing a massive chunk of potential buyers. But, your competitors aren’t.<br>And, it’ll gets much worse<br>That means, if you don’t have an excellent SEO strategy in place, you’re doomed.<br><br>Organic traffic converts at a <span id="span-1379-12" class="ct-span heading-span">2.5X higher rate than paid traffic</span><br>Brand that focus on SEO are able to reduce their dependency on ads, ultimately lowering their customer acquisition costs.<br>
+</div>
+</div>
+<div id="div_block-523-12" class="ct-div-block">
+<div id="div_block-524-12" class="ct-div-block scroller" data-direction="left" data-speed="slow" data-animated="true">
+<div id="code_block-525-12" class="ct-code-block"><!-- --></div>
+<div id="div_block-526-12" class="ct-div-block inner-scroller">
+<div id="div_block-527-12" class="ct-div-block slide-container"><div id="div_block-528-12" class="ct-div-block slide"><img id="image-529-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-530-12" class="ct-div-block slide-container"><div id="div_block-531-12" class="ct-div-block slide"><img id="image-532-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-533-12" class="ct-div-block slide-container"><div id="div_block-534-12" class="ct-div-block slide"><img id="image-535-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-536-12" class="ct-div-block slide-container"><div id="div_block-537-12" class="ct-div-block slide"><img id="image-538-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-539-12" class="ct-div-block slide-container"><div id="div_block-540-12" class="ct-div-block slide"><img id="image-541-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-542-12" class="ct-div-block slide-container"><div id="div_block-543-12" class="ct-div-block slide"><img id="image-544-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-545-12" class="ct-div-block slide-container"><div id="div_block-546-12" class="ct-div-block slide"><img id="image-547-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+</div>
+</div>
+<div id="div_block-548-12" class="ct-div-block scroller" data-direction="left" data-speed="slow" data-animated="true"><div id="div_block-549-12" class="ct-div-block inner-scroller">
+<div id="div_block-550-12" class="ct-div-block slide-container"><div id="div_block-551-12" class="ct-div-block slide"><img id="image-552-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-553-12" class="ct-div-block slide-container"><div id="div_block-554-12" class="ct-div-block slide"><img id="image-555-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-556-12" class="ct-div-block slide-container"><div id="div_block-557-12" class="ct-div-block slide"><img id="image-558-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-559-12" class="ct-div-block slide-container"><div id="div_block-560-12" class="ct-div-block slide"><img id="image-561-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-562-12" class="ct-div-block slide-container"><div id="div_block-563-12" class="ct-div-block slide"><img id="image-564-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-565-12" class="ct-div-block slide-container"><div id="div_block-566-12" class="ct-div-block slide"><img id="image-567-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+<div id="div_block-568-12" class="ct-div-block slide-container"><div id="div_block-569-12" class="ct-div-block slide"><img id="image-570-12" alt="" src="/wp-content/uploads/2024/10/Rectangle-7.png" class="ct-image slide-image" srcset="/wp-content/uploads/2024/10/Rectangle-7.png 614w, /wp-content/uploads/2024/10/Rectangle-7-300x264.png 300w" sizes="(max-width: 614px) 100vw, 614px"></div></div>
+</div></div>
+</div>
+</div></section><div id="div_block-585-12" class="ct-div-block">
+<div id="div_block-578-12" class="ct-div-block">
+<div id="text_block-579-12" class="ct-text-block clash-display heading-texts">At <span id="span-582-12" class="ct-span heading-span">SEOVerse</span>, We Streamline Processes to <span id="span-583-12" class="ct-span heading-span">Save You Time</span> and <span id="span-584-12" class="ct-span heading-span">Focus on Your Business</span>
+</div>
+<div id="div_block-586-12" class="ct-div-block">
+<div id="div_block-601-12" class="ct-div-block">
+<div id="div_block-627-12" class="ct-div-block">
+<div id="div_block-630-12" class="ct-div-block">
+<div id="text_block-631-12" class="ct-text-block strat-heading general-sans">Onboarding<br>
+</div>
+<div id="text_block-632-12" class="ct-text-block strat-text">We invite you to our communication channel and make you familiar with the process and set clear expectations moving forward.</div>
+</div>
+<div id="div_block-628-12" class="ct-div-block number-strat"><div id="text_block-629-12" class="ct-text-block clash-display">2</div></div>
+</div>
+<div id="div_block-634-12" class="ct-div-block">
+<div id="div_block-635-12" class="ct-div-block">
+<div id="text_block-636-12" class="ct-text-block strat-heading general-sans">Technical SEO<br>
+</div>
+<div id="text_block-637-12" class="ct-text-block strat-text">We optimize every digital technicality propelling your website to the top ranks and ensure it stays there, bringing in organic traffic and skyrocketing your business to new heights.</div>
+</div>
+<div id="div_block-638-12" class="ct-div-block number-strat"><div id="text_block-639-12" class="ct-text-block clash-display">4</div></div>
+</div>
+<div id="div_block-640-12" class="ct-div-block">
+<div id="div_block-641-12" class="ct-div-block">
+<div id="text_block-642-12" class="ct-text-block strat-heading general-sans">Off Page Optimization<br>
+</div>
+<div id="text_block-643-12" class="ct-text-block strat-text">We strategize authoritative link-building techniques to establish your brand as an industry leader, cultivating a presence that attracts, captivates, and converts your target audience.</div>
+</div>
+<div id="div_block-644-12" class="ct-div-block number-strat"><div id="text_block-645-12" class="ct-text-block clash-display">6</div></div>
+</div>
+</div>
+<div id="div_block-595-12" class="ct-div-block right-strat">
+<div id="div_block-603-12" class="ct-div-block">
+<div id="div_block-596-12" class="ct-div-block number-strat"><div id="text_block-597-12" class="ct-text-block clash-display">1</div></div>
+<div id="div_block-598-12" class="ct-div-block">
+<div id="text_block-599-12" class="ct-text-block strat-heading general-sans">Discovery Call</div>
+<div id="text_block-600-12" class="ct-text-block strat-text">We hop on a call with you and gain an insight on your requirements and scope of work.</div>
+</div>
+</div>
+<div id="div_block-607-12" class="ct-div-block">
+<div id="div_block-608-12" class="ct-div-block number-strat"><div id="text_block-609-12" class="ct-text-block clash-display">3</div></div>
+<div id="div_block-610-12" class="ct-div-block">
+<div id="text_block-611-12" class="ct-text-block strat-heading general-sans">Strategy and Planning</div>
+<div id="text_block-612-12" class="ct-text-block strat-text">We provide a master plan tailored to elevate your website's presence in search engines. Our proven methodologies will navigate your brand to new heights, ensuring sustained growth and dominance in your niche.</div>
+</div>
+</div>
+<div id="div_block-613-12" class="ct-div-block">
+<div id="div_block-614-12" class="ct-div-block number-strat"><div id="text_block-615-12" class="ct-text-block clash-display">5</div></div>
+<div id="div_block-616-12" class="ct-div-block">
+<div id="text_block-617-12" class="ct-text-block strat-heading general-sans">On-Page Optimization</div>
+<div id="text_block-618-12" class="ct-text-block strat-text">From compelling content to seamless user journeys, we transform your web pages into conversion powerhouses, ensuring every click translates into meaningful engagement and revenue.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="div_block-647-12" class="ct-div-block">
+<div id="div_block-649-12" class="ct-div-block"><a id="text_block-648-12" class="ct-link-text " href="/case-studies/">View More</a></div>
+<div id="text_block-657-12" class="ct-text-block clash-display heading-texts">Take a <span id="span-663-12" class="ct-span heading-span">Free Quiz</span> to Discover the Best SEO Strategies for Your Business<br>
+</div>
+<a id="link_button-666-12" class="ct-link-button" href="http://" target="_self">Start Quiz</a>
+</div>
+<div id="div_block-673-12" class="ct-div-block">
+<div id="text_block-675-12" class="ct-text-block clash-display heading-texts">
+<span id="span-682-12" class="ct-span heading-span">Case Studies Stories</span> From<br>Our Clients<br>
+</div>
+<div id="div_block-685-12" class="ct-div-block"></div>
+</div>
+<div id="div_block-686-12" class="ct-div-block">
+<div id="text_block-687-12" class="ct-text-block clash-display heading-texts">Don’t Believe Us?<br>Here’s What Some of <span id="span-696-12" class="ct-span heading-span">Our Clients Had to Say</span>
+</div>
+<div id="div_block-695-12" class="ct-div-block">
+<div id="div_block-1250-12" class="ct-div-block"><div id="div_block-699-12" class="ct-div-block">
+<div id="div_block-700-12" class="ct-div-block">
+<img id="image-701-12" alt="" src="/wp-content/uploads/2024/10/b93f186535d497b14126ebba2770f7d9.jpg" class="ct-image" srcset="/wp-content/uploads/2024/10/b93f186535d497b14126ebba2770f7d9.jpg 320w, /wp-content/uploads/2024/10/b93f186535d497b14126ebba2770f7d9-200x300.jpg 200w" sizes="(max-width: 320px) 100vw, 320px"><div id="div_block-702-12" class="ct-div-block">
+<div id="text_block-703-12" class="ct-text-block">Shri Sekh</div>
+<div id="text_block-704-12" class="ct-text-block">Marketing Agency</div>
+</div>
+</div>
+<div id="text_block-705-12" class="ct-text-block">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo”</div>
+</div></div>
+<div id="div_block-1251-12" class="ct-div-block"><div id="div_block-1252-12" class="ct-div-block">
+<div id="div_block-1253-12" class="ct-div-block">
+<img id="image-1254-12" alt="" src="/wp-content/uploads/2024/10/b93f186535d497b14126ebba2770f7d9.jpg" class="ct-image" srcset="/wp-content/uploads/2024/10/b93f186535d497b14126ebba2770f7d9.jpg 320w, /wp-content/uploads/2024/10/b93f186535d497b14126ebba2770f7d9-200x300.jpg 200w" sizes="(max-width: 320px) 100vw, 320px"><div id="div_block-1255-12" class="ct-div-block">
+<div id="text_block-1256-12" class="ct-text-block">Shri Sekh</div>
+<div id="text_block-1257-12" class="ct-text-block">Marketing Agency</div>
+</div>
+</div>
+<div id="text_block-1258-12" class="ct-text-block">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo”</div>
+</div></div>
+</div>
+</div>
+<div id="div_block-734-12" class="ct-div-block">
+<div id="text_block-735-12" class="ct-text-block heading-texts clash-display">Why Choose <span id="span-736-12" class="ct-span heading-span">SEOVerse</span>?</div>
+<div id="div_block-739-12" class="ct-div-block">
+<div id="div_block-740-12" class="ct-div-block">
+<div id="div_block-741-12" class="ct-div-block"><div id="text_block-745-12" class="ct-text-block">SEOVerse</div></div>
+<div id="div_block-742-12" class="ct-div-block"><div id="text_block-743-12" class="ct-text-block">Other Agencies</div></div>
+</div>
+<div id="div_block-746-12" class="ct-div-block"><div id="div_block-747-12" class="ct-div-block">
+<div id="div_block-751-12" class="ct-div-block">
+<div id="div_block-760-12" class="ct-div-block"><div id="text_block-761-12" class="ct-text-block">Long Term Contracts<br>
+</div></div>
+<div id="div_block-764-12" class="ct-div-block topborder123"><div id="text_block-765-12" class="ct-text-block">Long Term Contracts<br>
+</div></div>
+<div id="div_block-772-12" class="ct-div-block topborder123"><div id="text_block-773-12" class="ct-text-block">Long Term Contracts<br>
+</div></div>
+<div id="div_block-774-12" class="ct-div-block topborder123"><div id="text_block-775-12" class="ct-text-block">Long Term Contracts<br>
+</div></div>
+<div id="div_block-776-12" class="ct-div-block topborder123"><div id="text_block-777-12" class="ct-text-block">Long Term Contracts<br>
+</div></div>
+<div id="div_block-778-12" class="ct-div-block topborder123"><div id="text_block-779-12" class="ct-text-block">Long Term Contracts<br>
+</div></div>
+<div id="div_block-780-12" class="ct-div-block topborder123"><div id="text_block-781-12" class="ct-text-block">Long Term Contracts<br>
+</div></div>
+<div id="div_block-782-12" class="ct-div-block topborder123"><div id="text_block-783-12" class="ct-text-block">Long Term Contracts<br>
+</div></div>
+<div id="div_block-784-12" class="ct-div-block topborder123"><div id="text_block-785-12" class="ct-text-block">Long Term Contracts<br>
+</div></div>
+<div id="div_block-786-12" class="ct-div-block topborder123"><div id="text_block-787-12" class="ct-text-block">Long Term Contracts<br>
+</div></div>
+</div>
+<div id="div_block-752-12" class="ct-div-block">
+<div id="div_block-788-12" class="ct-div-block"><img id="image-789-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-790-12" class="ct-div-block topborder123"><img id="image-791-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-795-12" class="ct-div-block topborder123"><img id="image-796-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-797-12" class="ct-div-block topborder123"><img id="image-798-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-799-12" class="ct-div-block topborder123"><img id="image-800-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-801-12" class="ct-div-block topborder123"><img id="image-802-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-803-12" class="ct-div-block topborder123"><img id="image-804-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-805-12" class="ct-div-block topborder123"><img id="image-806-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-807-12" class="ct-div-block topborder123"><img id="image-808-12" alt="" src="/wp-content/uploads/2024/10/cross.svg" class="ct-image" sizes="(max-width: 22px) 100vw, 22px"></div>
+<div id="div_block-809-12" class="ct-div-block topborder123"><img id="image-810-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+</div>
+<div id="div_block-753-12" class="ct-div-block">
+<div id="div_block-811-12" class="ct-div-block"><img id="image-813-12" alt="" src="/wp-content/uploads/2024/10/cross.svg" class="ct-image" sizes="(max-width: 22px) 100vw, 22px"></div>
+<div id="div_block-814-12" class="ct-div-block topborder123"><img id="image-815-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-816-12" class="ct-div-block topborder123"><img id="image-817-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-818-12" class="ct-div-block topborder123"><img id="image-819-12" alt="" src="/wp-content/uploads/2024/10/cross.svg" class="ct-image" sizes="(max-width: 22px) 100vw, 22px"></div>
+<div id="div_block-820-12" class="ct-div-block topborder123"><img id="image-821-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-822-12" class="ct-div-block topborder123"><img id="image-823-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-824-12" class="ct-div-block topborder123"><img id="image-825-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-826-12" class="ct-div-block topborder123"><img id="image-827-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-828-12" class="ct-div-block topborder123"><img id="image-829-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+<div id="div_block-830-12" class="ct-div-block topborder123"><img id="image-831-12" alt="" src="/wp-content/uploads/2024/10/tick.svg" class="ct-image" sizes="(max-width: 30px) 100vw, 30px"></div>
+</div>
+</div></div>
+</div>
+</div>
+<div id="div_block-843-12" class="ct-div-block">
+<div id="text_block-846-12" class="ct-text-block clash-display heading-texts">Take a <span id="span-852-12" class="ct-span heading-span">Free Quiz</span> to Discover the Best SEO Strategies for Your Business<br>
+</div>
+<a id="link_button-853-12" class="ct-link-button" href="http://" target="_self">Start Quiz</a><div id="div_block-854-12" class="ct-div-block">
+<div id="text_block-862-12" class="ct-text-block clash-display heading-texts">This Is <span id="span-869-12" class="ct-span heading-span">for You</span> if You Want To<br>
+</div>
+<div id="div_block-872-12" class="ct-div-block">
+<div id="div_block-922-12" class="ct-div-block"><div id="div_block-880-12" class="ct-div-block"><div id="div_block-881-12" class="ct-div-block">
+<div id="div_block-926-12" class="ct-div-block number-strat"><div id="text_block-927-12" class="ct-text-block clash-display">1</div></div>
+<div id="div_block-883-12" class="ct-div-block">
+<div id="text_block-884-12" class="ct-text-block">Work With High Quality Businesses</div>
+<div id="text_block-923-12" class="ct-text-block">So you can get paid $3,000 - $10,000/mo + performance fees</div>
+</div>
+</div></div></div>
+<div id="div_block-929-12" class="ct-div-block"><div id="div_block-930-12" class="ct-div-block"><div id="div_block-931-12" class="ct-div-block">
+<div id="div_block-932-12" class="ct-div-block number-strat"><div id="text_block-933-12" class="ct-text-block clash-display">4</div></div>
+<div id="div_block-934-12" class="ct-div-block">
+<div id="text_block-935-12" class="ct-text-block">Not Need to Spend Tens of Thousands to Get Clients</div>
+<div id="text_block-936-12" class="ct-text-block">So you can keep more profit &amp; feel more stable growing your business</div>
+</div>
+</div></div></div>
+<div id="div_block-937-12" class="ct-div-block"><div id="div_block-938-12" class="ct-div-block"><div id="div_block-939-12" class="ct-div-block">
+<div id="div_block-940-12" class="ct-div-block number-strat"><div id="text_block-941-12" class="ct-text-block clash-display">2</div></div>
+<div id="div_block-942-12" class="ct-div-block">
+<div id="text_block-943-12" class="ct-text-block">Keep Clients Longer</div>
+<div id="text_block-944-12" class="ct-text-block">So you can stack MRR</div>
+</div>
+</div></div></div>
+<div id="div_block-945-12" class="ct-div-block"><div id="div_block-946-12" class="ct-div-block"><div id="div_block-947-12" class="ct-div-block">
+<div id="div_block-948-12" class="ct-div-block number-strat"><div id="text_block-949-12" class="ct-text-block clash-display">5</div></div>
+<div id="div_block-950-12" class="ct-div-block">
+<div id="text_block-951-12" class="ct-text-block">Productize Your Business</div>
+<div id="text_block-952-12" class="ct-text-block">So fulfilling for clients becomes easy, and you aren't working 80+ hours per week</div>
+</div>
+</div></div></div>
+<div id="div_block-953-12" class="ct-div-block"><div id="div_block-954-12" class="ct-div-block"><div id="div_block-955-12" class="ct-div-block">
+<div id="div_block-956-12" class="ct-div-block number-strat"><div id="text_block-957-12" class="ct-text-block clash-display">3</div></div>
+<div id="div_block-958-12" class="ct-div-block">
+<div id="text_block-959-12" class="ct-text-block">Create a No Brainer Offer</div>
+<div id="text_block-960-12" class="ct-text-block">So you don't have to jump through hoops to sign every client</div>
+</div>
+</div></div></div>
+<div id="div_block-961-12" class="ct-div-block"><div id="div_block-962-12" class="ct-div-block"><div id="div_block-963-12" class="ct-div-block">
+<div id="div_block-964-12" class="ct-div-block number-strat"><div id="text_block-965-12" class="ct-text-block clash-display">6</div></div>
+<div id="div_block-966-12" class="ct-div-block">
+<div id="text_block-967-12" class="ct-text-block">Stop Spinning Your Wheels</div>
+<div id="text_block-968-12" class="ct-text-block">So you can finally use something that works, is simple, and can use for the rest of your life</div>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+<div id="div_block-983-12" class="ct-div-block">
+<div id="text_block-992-12" class="ct-text-block clash-display heading-texts">FAQ<br>
+</div>
+<div id="div_block-1001-12" class="ct-div-block">
+<div id="div_block-1028-12" class="ct-div-block"><div id="div_block-1002-12" class="ct-div-block oxel_accordion" name="same">
+<button id="div_block-1020-12" class="ct-div-block oxel_accordion__row" aria-expanded="false"><div id="div_block-1021-12" class="ct-div-block oxel_accordion__row_left"><div id="text_block-1023-12" class="ct-text-block oxel_accordion__row__label">Lorem ipsum dolor amit set.</div></div>
+<div id="div_block-1186-12" class="ct-div-block"><img id="image-1188-12" alt="" src="/wp-content/uploads/2024/10/Vector.svg" class="ct-image oxel_accordion__icon" sizes="(max-width: 14px) 100vw, 14px"></div></button><div id="div_block-1025-12" class="ct-div-block oxel_accordion__content oxel_accordion__content__hidden"><div id="div_block-1026-12" class="ct-div-block"><div id="text_block-1027-12" class="ct-text-block">Lorem ipsum dolor amit set.</div></div></div>
+</div></div>
+<div id="div_block-1203-12" class="ct-div-block"><div id="div_block-1204-12" class="ct-div-block oxel_accordion" name="same">
+<button id="div_block-1205-12" class="ct-div-block oxel_accordion__row" aria-expanded="false"><div id="div_block-1206-12" class="ct-div-block oxel_accordion__row_left"><div id="text_block-1207-12" class="ct-text-block oxel_accordion__row__label">Lorem ipsum dolor amit set.</div></div>
+<div id="div_block-1208-12" class="ct-div-block"><img id="image-1209-12" alt="" src="/wp-content/uploads/2024/10/Vector.svg" class="ct-image oxel_accordion__icon" sizes="(max-width: 14px) 100vw, 14px"></div></button><div id="div_block-1210-12" class="ct-div-block oxel_accordion__content oxel_accordion__content__hidden"><div id="div_block-1211-12" class="ct-div-block"><div id="text_block-1212-12" class="ct-text-block">Lorem ipsum dolor amit set.</div></div></div>
+</div></div>
+<div id="div_block-1213-12" class="ct-div-block"><div id="div_block-1214-12" class="ct-div-block oxel_accordion" name="same">
+<button id="div_block-1215-12" class="ct-div-block oxel_accordion__row" aria-expanded="false"><div id="div_block-1216-12" class="ct-div-block oxel_accordion__row_left"><div id="text_block-1217-12" class="ct-text-block oxel_accordion__row__label">Lorem ipsum dolor amit set.</div></div>
+<div id="div_block-1218-12" class="ct-div-block"><img id="image-1219-12" alt="" src="/wp-content/uploads/2024/10/Vector.svg" class="ct-image oxel_accordion__icon" sizes="(max-width: 14px) 100vw, 14px"></div></button><div id="div_block-1220-12" class="ct-div-block oxel_accordion__content oxel_accordion__content__hidden"><div id="div_block-1221-12" class="ct-div-block"><div id="text_block-1222-12" class="ct-text-block">Lorem ipsum dolor amit set.</div></div></div>
+</div></div>
+<div id="div_block-1223-12" class="ct-div-block"><div id="div_block-1224-12" class="ct-div-block oxel_accordion" name="same">
+<button id="div_block-1225-12" class="ct-div-block oxel_accordion__row" aria-expanded="false"><div id="div_block-1226-12" class="ct-div-block oxel_accordion__row_left"><div id="text_block-1227-12" class="ct-text-block oxel_accordion__row__label">Lorem ipsum dolor amit set.</div></div>
+<div id="div_block-1228-12" class="ct-div-block"><img id="image-1229-12" alt="" src="/wp-content/uploads/2024/10/Vector.svg" class="ct-image oxel_accordion__icon" sizes="(max-width: 14px) 100vw, 14px"></div></button><div id="div_block-1230-12" class="ct-div-block oxel_accordion__content oxel_accordion__content__hidden"><div id="div_block-1231-12" class="ct-div-block"><div id="text_block-1232-12" class="ct-text-block">Lorem ipsum dolor amit set.</div></div></div>
+</div></div>
+<div id="div_block-1233-12" class="ct-div-block"><div id="div_block-1234-12" class="ct-div-block oxel_accordion" name="same">
+<button id="div_block-1235-12" class="ct-div-block oxel_accordion__row" aria-expanded="false"><div id="div_block-1236-12" class="ct-div-block oxel_accordion__row_left"><div id="text_block-1237-12" class="ct-text-block oxel_accordion__row__label">Lorem ipsum dolor amit set.</div></div>
+<div id="div_block-1238-12" class="ct-div-block"><img id="image-1239-12" alt="" src="/wp-content/uploads/2024/10/Vector.svg" class="ct-image oxel_accordion__icon" sizes="(max-width: 14px) 100vw, 14px"></div></button><div id="div_block-1240-12" class="ct-div-block oxel_accordion__content oxel_accordion__content__hidden"><div id="div_block-1241-12" class="ct-div-block"><div id="text_block-1242-12" class="ct-text-block">Lorem ipsum dolor amit set.</div></div></div>
+</div></div>
+</div>
+<div id="code_block-1148-12" class="ct-code-block"><!-- --></div>
+</div>
+</div>
+<div id="div_block-1259-12" class="ct-div-block"><div id="div_block-1260-12" class="ct-div-block"><div id="div_block-1261-12" class="ct-div-block">
+<div id="div_block-1262-12" class="ct-div-block">
+<a id="link-1264-12" class="ct-link" href="/"><img id="image-1263-12" alt="" src="/wp-content/uploads/2024/10/seo-logo.svg" class="ct-image" sizes="(max-width: 230px) 100vw, 230px"></a><div id="div_block-1265-12" class="ct-div-block">
+<a id="div_block-1266-12" class="ct-link" href="http://"><div id="code_block-1267-12" class="ct-code-block">
+<svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.92521 0C10.9377 0.00269986 11.4515 0.00809959 11.8952 0.0206989L12.0698 0.0269986C12.2714 0.0341982 12.4703 0.0431977 12.7106 0.0539972C13.6681 0.0989949 14.3215 0.250187 14.8948 0.472476C15.4887 0.701064 15.9891 1.01065 16.4895 1.51012C16.9471 1.96001 17.3012 2.5042 17.5271 3.10484C17.7494 3.67811 17.9006 4.33148 17.9456 5.28993C17.9564 5.52932 17.9654 5.72821 17.9726 5.9307L17.978 6.10529C17.9915 6.54807 17.9969 7.06194 17.9987 8.07439L17.9996 8.74575V9.92469C18.0018 10.5811 17.9949 11.2376 17.9789 11.8938L17.9735 12.0684C17.9663 12.2709 17.9573 12.4698 17.9465 12.7091C17.9015 13.6676 17.7485 14.3201 17.5271 14.8942C17.3018 15.4952 16.9477 16.0395 16.4895 16.489C16.0395 16.9464 15.4953 17.3005 14.8948 17.5266C14.3215 17.7489 13.6681 17.9001 12.7106 17.9451C12.497 17.9551 12.2834 17.9641 12.0698 17.9721L11.8952 17.9775C11.4515 17.9901 10.9377 17.9964 9.92521 17.9982L9.25385 17.9991H8.07581C7.41907 18.0013 6.76234 17.9944 6.10581 17.9784L5.93122 17.973C5.71758 17.9649 5.50398 17.9556 5.29045 17.9451C4.3329 17.9001 3.67953 17.7489 3.10536 17.5266C2.50479 17.3011 1.96081 16.9469 1.51154 16.489C1.05351 16.0392 0.699085 15.495 0.472995 14.8942C0.250707 14.321 0.0995141 13.6676 0.0545165 12.7091C0.0444899 12.4956 0.0354903 12.282 0.0275179 12.0684L0.0230182 11.8938C0.0064339 11.2376 -0.00106652 10.5811 0.000519274 9.92469V8.07439C-0.00199247 7.41796 0.0046079 6.76153 0.0203183 6.10529L0.026618 5.9307C0.0338176 5.72821 0.0428171 5.52932 0.0536166 5.28993C0.0986143 4.33148 0.249806 3.67901 0.472095 3.10484C0.698086 2.50359 1.05321 1.95922 1.51244 1.51012C1.9616 1.05247 2.50522 0.698353 3.10536 0.472476C3.67953 0.250187 4.332 0.0989949 5.29045 0.0539972C5.52984 0.0431977 5.72963 0.0341982 5.93122 0.0269986L6.10581 0.0215988C6.76205 0.00560915 7.41848 -0.00129116 8.07491 0.000899889L9.92521 0ZM9.00006 4.49977C7.80665 4.49977 6.66211 4.97385 5.81824 5.81772C4.97437 6.66159 4.50029 7.80613 4.50029 8.99954C4.50029 10.193 4.97437 11.3375 5.81824 12.1814C6.66211 13.0252 7.80665 13.4993 9.00006 13.4993C10.1935 13.4993 11.338 13.0252 12.1819 12.1814C13.0257 11.3375 13.4998 10.193 13.4998 8.99954C13.4998 7.80613 13.0257 6.66159 12.1819 5.81772C11.338 4.97385 10.1935 4.49977 9.00006 4.49977ZM9.00006 6.29968C9.35461 6.29962 9.7057 6.36939 10.0333 6.50502C10.3609 6.64065 10.6585 6.83947 10.9093 7.09013C11.16 7.34079 11.3589 7.63839 11.4947 7.96593C11.6304 8.29347 11.7003 8.64454 11.7004 8.99909C11.7004 9.35364 11.6307 9.70473 11.495 10.0323C11.3594 10.3599 11.1606 10.6576 10.9099 10.9083C10.6593 11.1591 10.3617 11.358 10.0341 11.4937C9.70658 11.6294 9.35551 11.6993 9.00096 11.6994C8.28491 11.6994 7.59819 11.415 7.09187 10.9086C6.58555 10.4023 6.3011 9.71559 6.3011 8.99954C6.3011 8.28349 6.58555 7.59677 7.09187 7.09045C7.59819 6.58413 8.28491 6.29968 9.00096 6.29968M13.7257 3.14984C13.4274 3.14984 13.1412 3.26836 12.9303 3.47933C12.7193 3.69029 12.6008 3.97643 12.6008 4.27478C12.6008 4.57313 12.7193 4.85927 12.9303 5.07024C13.1412 5.2812 13.4274 5.39972 13.7257 5.39972C14.0241 5.39972 14.3102 5.2812 14.5212 5.07024C14.7321 4.85927 14.8507 4.57313 14.8507 4.27478C14.8507 3.97643 14.7321 3.69029 14.5212 3.47933C14.3102 3.26836 14.0241 3.14984 13.7257 3.14984Z" fill="white"></path>
+</svg>
+</div></a><a id="div_block-1268-12" class="ct-link" href="http://"><div id="code_block-1269-12" class="ct-code-block">
+<svg width="18" height="18" viewbox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 0C16.5304 0 17.0391 0.210714 17.4142 0.585786C17.7893 0.960859 18 1.46957 18 2V16C18 16.5304 17.7893 17.0391 17.4142 17.4142C17.0391 17.7893 16.5304 18 16 18H2C1.46957 18 0.960859 17.7893 0.585786 17.4142C0.210714 17.0391 0 16.5304 0 16V2C0 1.46957 0.210714 0.960859 0.585786 0.585786C0.960859 0.210714 1.46957 0 2 0H16ZM15.5 15.5V10.2C15.5 9.33539 15.1565 8.5062 14.5452 7.89483C13.9338 7.28346 13.1046 6.94 12.24 6.94C11.39 6.94 10.4 7.46 9.92 8.24V7.13H7.13V15.5H9.92V10.57C9.92 9.8 10.54 9.17 11.31 9.17C11.6813 9.17 12.0374 9.3175 12.2999 9.58005C12.5625 9.8426 12.71 10.1987 12.71 10.57V15.5H15.5ZM3.88 5.56C4.32556 5.56 4.75288 5.383 5.06794 5.06794C5.383 4.75288 5.56 4.32556 5.56 3.88C5.56 2.95 4.81 2.19 3.88 2.19C3.43178 2.19 3.00193 2.36805 2.68499 2.68499C2.36805 3.00193 2.19 3.43178 2.19 3.88C2.19 4.81 2.95 5.56 3.88 5.56ZM5.27 15.5V7.13H2.5V15.5H5.27Z" fill="white"></path>
+</svg>
+</div></a>
+</div>
+</div>
+<div id="text_block-1279-12" class="ct-text-block clash-display heading-texts">Unlock Your Business's Potential With<br>a Personalized <span id="span-1286-12" class="ct-span heading-span">SEO Strategy</span><br>
+</div>
+<div id="div_block-16-12" class="ct-div-block"><a id="link_button-17-12" class="ct-link-button clash-display" href="http://" target="_self">Book your free consultation</a></div>
+<div id="div_block-1294-12" class="ct-div-block"></div>
+<div id="div_block-1303-12" class="ct-div-block">
+<div id="div_block-1311-12" class="ct-div-block">
+		<div id="-pro-menu-1359-12" class="oxy-pro-menu ">
+<div class="oxy-pro-menu-mobile-open-icon " data-off-canvas-alignment="">
+<svg id="-pro-menu-1359-12-open-icon"><use xlink:href="#FontAwesomeicon-ellipsis-v"></use></svg>Menu</div>
+
+                
+        <div class="oxy-pro-menu-container  oxy-pro-menu-dropdown-links-visible-on-mobile oxy-pro-menu-dropdown-links-toggle oxy-pro-menu-show-dropdown" data-aos-duration="400" data-oxy-pro-menu-dropdown-animation="fade-up" data-oxy-pro-menu-dropdown-animation-duration="0.4" data-entire-parent-toggles-dropdown="true" data-oxy-pro-menu-dropdown-links-on-mobile="toggle">
+             
+            <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="oxy-pro-menu-list">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-12 current_page_item menu-item-28"><a href="/" aria-current="page">Homepage</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="/about-us/">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="/case-studies/">Case Studies</a></li>
+</ul></div>
+            <div class="oxy-pro-menu-mobile-close-icon">
+<svg id="svg--pro-menu-1359-12"><use xlink:href="#FontAwesomeicon-close"></use></svg>close</div>
+
+        </div>
+
+        </div>
+
+		<script type="text/javascript">
+			jQuery('#-pro-menu-1359-12 .oxy-pro-menu-show-dropdown .menu-item-has-children > a', 'body').each(function(){
+                jQuery(this).append('<div class="oxy-pro-menu-dropdown-icon-click-area"><svg class="oxy-pro-menu-dropdown-icon"><use xlink:href="#FontAwesomeicon-arrow-circle-o-down"><\/use><\/svg><\/div>');
+            });
+            jQuery('#-pro-menu-1359-12 .oxy-pro-menu-show-dropdown .menu-item:not(.menu-item-has-children) > a', 'body').each(function(){
+                jQuery(this).append('<div class="oxy-pro-menu-dropdown-icon-click-area"><\/div>');
+            });			</script>
+</div>
+<div id="div_block-1306-12" class="ct-div-block">
+<div id="text_block-1360-12" class="ct-text-block">© 2024 SEOVerse.</div>
+<div id="div_block-1362-12" class="ct-div-block"></div>
+<div id="text_block-1361-12" class="ct-text-block">All Rights Reserved.&nbsp;</div>
+</div>
+</div>
+</div></div></div>
+</div>	<!-- WP_FOOTER -->
+<style>.ct-FontAwesomeicon-close{width:0.78571428571429em}</style>
+<style>.ct-FontAwesomeicon-arrow-circle-o-down{width:0.85714285714286em}</style>
+<style>.ct-FontAwesomeicon-ellipsis-v{width:0.21428571428571em}</style>
+<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"><defs><symbol id="FontAwesomeicon-close" viewbox="0 0 22 28"><title>close</title>
+<path d="M20.281 20.656c0 0.391-0.156 0.781-0.438 1.062l-2.125 2.125c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-4.594-4.594-4.594 4.594c-0.281 0.281-0.672 0.438-1.062 0.438s-0.781-0.156-1.062-0.438l-2.125-2.125c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l4.594-4.594-4.594-4.594c-0.281-0.281-0.438-0.672-0.438-1.062s0.156-0.781 0.438-1.062l2.125-2.125c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l4.594 4.594 4.594-4.594c0.281-0.281 0.672-0.438 1.062-0.438s0.781 0.156 1.062 0.438l2.125 2.125c0.281 0.281 0.438 0.672 0.438 1.062s-0.156 0.781-0.438 1.062l-4.594 4.594 4.594 4.594c0.281 0.281 0.438 0.672 0.438 1.062z"></path></symbol><symbol id="FontAwesomeicon-arrow-circle-o-down" viewbox="0 0 24 28"><title>arrow-circle-o-down</title>
+<path d="M17.5 14.5c0 0.141-0.063 0.266-0.156 0.375l-4.984 4.984c-0.109 0.094-0.234 0.141-0.359 0.141s-0.25-0.047-0.359-0.141l-5-5c-0.141-0.156-0.187-0.359-0.109-0.547s0.266-0.313 0.469-0.313h3v-5.5c0-0.281 0.219-0.5 0.5-0.5h3c0.281 0 0.5 0.219 0.5 0.5v5.5h3c0.281 0 0.5 0.219 0.5 0.5zM12 5.5c-4.688 0-8.5 3.813-8.5 8.5s3.813 8.5 8.5 8.5 8.5-3.813 8.5-8.5-3.813-8.5-8.5-8.5zM24 14c0 6.625-5.375 12-12 12s-12-5.375-12-12 5.375-12 12-12v0c6.625 0 12 5.375 12 12z"></path></symbol><symbol id="FontAwesomeicon-ellipsis-v" viewbox="0 0 6 28"><title>ellipsis-v</title>
+<path d="M6 19.5v3c0 0.828-0.672 1.5-1.5 1.5h-3c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h3c0.828 0 1.5 0.672 1.5 1.5zM6 11.5v3c0 0.828-0.672 1.5-1.5 1.5h-3c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h3c0.828 0 1.5 0.672 1.5 1.5zM6 3.5v3c0 0.828-0.672 1.5-1.5 1.5h-3c-0.828 0-1.5-0.672-1.5-1.5v-3c0-0.828 0.672-1.5 1.5-1.5h3c0.828 0 1.5 0.672 1.5 1.5z"></path></symbol></defs></svg>
+        <script type="text/javascript">function oxygen_init_pro_menu() {
+                jQuery('.oxy-pro-menu-container').each(function(){
+                    
+                    // dropdowns
+                    var menu = jQuery(this),
+                        animation = menu.data('oxy-pro-menu-dropdown-animation'),
+                        animationDuration = menu.data('oxy-pro-menu-dropdown-animation-duration');
+                    
+                    jQuery('.sub-menu', menu).attr('data-aos',animation);
+                    jQuery('.sub-menu', menu).attr('data-aos-duration',animationDuration*1000);
+
+                    oxygen_offcanvas_menu_init(menu);
+                    jQuery(window).resize(function(){
+                        oxygen_offcanvas_menu_init(menu);
+                    });
+
+                    // let certain CSS rules know menu being initialized
+                    // "10" timeout is extra just in case, "0" would be enough
+                    setTimeout(function() {menu.addClass('oxy-pro-menu-init');}, 10);
+                });
+            }
+
+            jQuery(document).ready(oxygen_init_pro_menu);
+            document.addEventListener('oxygen-ajax-element-loaded', oxygen_init_pro_menu, false);
+            
+            let proMenuMouseDown = false;
+
+            jQuery(".oxygen-body")
+            .on("mousedown", '.oxy-pro-menu-show-dropdown:not(.oxy-pro-menu-open-container) .menu-item-has-children', function(e) {
+                proMenuMouseDown = true;
+            })
+
+            .on("mouseup", '.oxy-pro-menu-show-dropdown:not(.oxy-pro-menu-open-container) .menu-item-has-children', function(e) {
+                proMenuMouseDown = false;
+            })
+
+            .on('mouseenter focusin', '.oxy-pro-menu-show-dropdown:not(.oxy-pro-menu-open-container) .menu-item-has-children', function(e) {
+                if( proMenuMouseDown ) return;
+                
+                var subMenu = jQuery(this).children('.sub-menu');
+                subMenu.addClass('aos-animate oxy-pro-menu-dropdown-animating').removeClass('sub-menu-left');
+
+                var duration = jQuery(this).parents('.oxy-pro-menu-container').data('oxy-pro-menu-dropdown-animation-duration');
+
+                setTimeout(function() {subMenu.removeClass('oxy-pro-menu-dropdown-animating')}, duration*1000);
+
+                var offset = subMenu.offset(),
+                    width = subMenu.width(),
+                    docWidth = jQuery(window).width();
+
+                    if (offset.left+width > docWidth) {
+                        subMenu.addClass('sub-menu-left');
+                    }
+            })
+            
+            .on('mouseleave focusout', '.oxy-pro-menu-show-dropdown .menu-item-has-children', function() {
+                jQuery(this).children('.sub-menu').removeClass('aos-animate');
+
+                var subMenu = jQuery(this).children('.sub-menu');
+                //subMenu.addClass('oxy-pro-menu-dropdown-animating-out');
+
+                var duration = jQuery(this).parents('.oxy-pro-menu-container').data('oxy-pro-menu-dropdown-animation-duration');
+                setTimeout(function() {subMenu.removeClass('oxy-pro-menu-dropdown-animating-out')}, duration*1000);
+            })
+
+            // open icon click
+            .on('click', '.oxy-pro-menu-mobile-open-icon', function() {    
+                var menu = jQuery(this).parents('.oxy-pro-menu');
+                // off canvas
+                if (jQuery(this).hasClass('oxy-pro-menu-off-canvas-trigger')) {
+                    oxygen_offcanvas_menu_run(menu);
+                }
+                // regular
+                else {
+                    menu.addClass('oxy-pro-menu-open');
+                    jQuery(this).siblings('.oxy-pro-menu-container').addClass('oxy-pro-menu-open-container');
+                    jQuery('body').addClass('oxy-nav-menu-prevent-overflow');
+                    jQuery('html').addClass('oxy-nav-menu-prevent-overflow');
+                    
+                    oxygen_pro_menu_set_static_width(menu);
+                }
+                // remove animation and collapse
+                jQuery('.sub-menu', menu).attr('data-aos','');
+                jQuery('.oxy-pro-menu-dropdown-toggle .sub-menu', menu).slideUp(0);
+            });
+
+            function oxygen_pro_menu_set_static_width(menu) {
+                var menuItemWidth = jQuery(".oxy-pro-menu-list > .menu-item", menu).width();
+                jQuery(".oxy-pro-menu-open-container > div:first-child, .oxy-pro-menu-off-canvas-container > div:first-child", menu).width(menuItemWidth);
+            }
+
+            function oxygen_pro_menu_unset_static_width(menu) {
+                jQuery(".oxy-pro-menu-container > div:first-child", menu).width("");
+            }
+
+            // close icon click
+            jQuery('body').on('click', '.oxy-pro-menu-mobile-close-icon', function(e) {
+                
+                var menu = jQuery(this).parents('.oxy-pro-menu');
+
+                menu.removeClass('oxy-pro-menu-open');
+                jQuery(this).parents('.oxy-pro-menu-container').removeClass('oxy-pro-menu-open-container');
+                jQuery('.oxy-nav-menu-prevent-overflow').removeClass('oxy-nav-menu-prevent-overflow');
+
+                if (jQuery(this).parent('.oxy-pro-menu-container').hasClass('oxy-pro-menu-off-canvas-container')) {
+                    oxygen_offcanvas_menu_run(menu);
+                }
+
+                oxygen_pro_menu_unset_static_width(menu);
+            });
+
+            // dropdown toggle icon click
+            jQuery('body').on(
+                'touchstart click', 
+                '.oxy-pro-menu-dropdown-links-toggle.oxy-pro-menu-off-canvas-container .menu-item-has-children > a > .oxy-pro-menu-dropdown-icon-click-area,'+
+                '.oxy-pro-menu-dropdown-links-toggle.oxy-pro-menu-open-container .menu-item-has-children > a > .oxy-pro-menu-dropdown-icon-click-area', 
+                function(e) {
+                    e.preventDefault();
+
+                    // fix for iOS false triggering submenu clicks
+                    jQuery('.sub-menu').css('pointer-events', 'none');
+                    setTimeout( function() {
+                        jQuery('.sub-menu').css('pointer-events', 'initial');
+                    }, 500);
+
+                    // workaround to stop click event from triggering after touchstart
+                    if (window.oxygenProMenuIconTouched === true) {
+                        window.oxygenProMenuIconTouched = false;
+                        return;
+                    }
+                    if (e.type==='touchstart') {
+                        window.oxygenProMenuIconTouched = true;
+                    }
+                    oxygen_pro_menu_toggle_dropdown(this);
+                }
+            );
+
+            function oxygen_pro_menu_toggle_dropdown(trigger) {
+
+                var duration = jQuery(trigger).parents('.oxy-pro-menu-container').data('oxy-pro-menu-dropdown-animation-duration');
+
+                jQuery(trigger).closest('.menu-item-has-children').children('.sub-menu').slideToggle({
+                    start: function () {
+                        jQuery(this).css({
+                            display: "flex"
+                        })
+                    },
+                    duration: duration*1000
+                });
+            }
+                    
+            // fullscreen menu link click
+            var selector = '.oxy-pro-menu-open .menu-item a';
+            jQuery('body').on('click', selector, function(event){
+                
+                if (jQuery(event.target).closest('.oxy-pro-menu-dropdown-icon-click-area').length > 0) {
+                    // toggle icon clicked, no need to hide the menu
+                    return;
+                }
+                else if ((jQuery(this).attr("href") === "#" || jQuery(this).closest(".oxy-pro-menu-container").data("entire-parent-toggles-dropdown")) && 
+                         jQuery(this).parent().hasClass('menu-item-has-children')) {
+                    // empty href don't lead anywhere, treat it as toggle trigger
+                    oxygen_pro_menu_toggle_dropdown(event.target);
+                    // keep anchor links behavior as is, and prevent regular links from page reload
+                    if (jQuery(this).attr("href").indexOf("#")!==0) {
+                        return false;
+                    }
+                }
+
+                // hide the menu and follow the anchor
+                if (jQuery(this).attr("href").indexOf("#")===0) {
+                    jQuery('.oxy-pro-menu-open').removeClass('oxy-pro-menu-open');
+                    jQuery('.oxy-pro-menu-open-container').removeClass('oxy-pro-menu-open-container');
+                    jQuery('.oxy-nav-menu-prevent-overflow').removeClass('oxy-nav-menu-prevent-overflow');
+                }
+
+            });
+
+            // off-canvas menu link click
+            var selector = '.oxy-pro-menu-off-canvas .menu-item a';
+            jQuery('body').on('click', selector, function(event){
+                if (jQuery(event.target).closest('.oxy-pro-menu-dropdown-icon-click-area').length > 0) {
+                    // toggle icon clicked, no need to trigger it 
+                    return;
+                }
+                else if ((jQuery(this).attr("href") === "#" || jQuery(this).closest(".oxy-pro-menu-container").data("entire-parent-toggles-dropdown")) && 
+                    jQuery(this).parent().hasClass('menu-item-has-children')) {
+                    // empty href don't lead anywhere, treat it as toggle trigger
+                    oxygen_pro_menu_toggle_dropdown(event.target);
+                    // keep anchor links behavior as is, and prevent regular links from page reload
+                    if (jQuery(this).attr("href").indexOf("#")!==0) {
+                        return false;
+                    }
+                }
+            });
+
+            // off canvas
+            function oxygen_offcanvas_menu_init(menu) {
+
+                // only init off-canvas animation if trigger icon is visible i.e. mobile menu in action
+                var offCanvasActive = jQuery(menu).siblings('.oxy-pro-menu-off-canvas-trigger').css('display');
+                if (offCanvasActive!=='none') {
+                    var animation = menu.data('oxy-pro-menu-off-canvas-animation');
+                    setTimeout(function() {menu.attr('data-aos', animation);}, 10);
+                }
+                else {
+                    // remove AOS
+                    menu.attr('data-aos', '');
+                };
+            }
+            
+            function oxygen_offcanvas_menu_run(menu) {
+
+                var container = menu.find(".oxy-pro-menu-container");
+                
+                if (!container.attr('data-aos')) {
+                    // initialize animation
+                    setTimeout(function() {oxygen_offcanvas_menu_toggle(menu, container)}, 0);
+                }
+                else {
+                    oxygen_offcanvas_menu_toggle(menu, container);
+                }
+            }
+
+            var oxygen_offcanvas_menu_toggle_in_progress = false;
+
+            function oxygen_offcanvas_menu_toggle(menu, container) {
+
+                if (oxygen_offcanvas_menu_toggle_in_progress) {
+                    return;
+                }
+
+                container.toggleClass('aos-animate');
+
+                if (container.hasClass('oxy-pro-menu-off-canvas-container')) {
+                    
+                    oxygen_offcanvas_menu_toggle_in_progress = true;
+                    
+                    var animation = container.data('oxy-pro-menu-off-canvas-animation'),
+                        timeout = container.data('aos-duration');
+
+                    if (!animation){
+                        timeout = 0;
+                    }
+
+                    setTimeout(function() {
+                        container.removeClass('oxy-pro-menu-off-canvas-container')
+                        menu.removeClass('oxy-pro-menu-off-canvas');
+                        oxygen_offcanvas_menu_toggle_in_progress = false;
+                    }, timeout);
+                }
+                else {
+                    container.addClass('oxy-pro-menu-off-canvas-container');
+                    menu.addClass('oxy-pro-menu-off-canvas');
+                    oxygen_pro_menu_set_static_width(menu);
+                }
+            }</script>
+
+    <link rel="stylesheet" id="oxygen-aos-css" href="/wp-content/plugins/oxygen/component-framework/vendor/aos/aos.css?ver=6.6.2" media="all">
+<script src="/wp-content/plugins/oxygen/component-framework/vendor/aos/aos.js?ver=1" id="oxygen-aos-js"></script>
+<script type="text/javascript" id="ct-footer-js">AOS.init({
+	  		  		  		  		  		  		  				  			})
+		
+				jQuery('body').addClass('oxygen-aos-enabled');</script><style type="text/css" id="ct_code_block_css_85">@keyframes luminr-scroll {
+  to {
+
+    left: -12.625rem;
+    
+  }
+  
+}
+
+
+
+.luminr-item {
+  animation-name: luminr-scroll;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+  left: max(calc(12.625rem * 4), 100%);
+  background: none !important;
+ 
+}
+
+
+.item1 {
+  animation-delay: calc(40s / 5 * (5 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(40s / 5 * (5 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(40s / 5 * (5 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(40s / 5 * (5 - 4) * -1);
+}
+.item5 {
+  animation-delay: calc(40s / 5 * (5 - 5) * -1);
+}</style>
+<script type="text/javascript" id="ct_code_block_js_525">const scrollers = document.querySelectorAll(".scroller");
+
+// If a user hasn't opted in for recuded motion, then we add the animation
+
+  addAnimation();
+
+
+function addAnimation() {
+  scrollers.forEach((scroller) => {
+    // add data-animated="true" to every `.scroller` on the page
+    scroller.setAttribute("data-animated", true);
+
+    // Make an array from the elements within `.scroller-inner`
+    const scrollerInner = scroller.querySelector(".inner-scroller");
+    const scrollerContent = Array.from(scrollerInner.children);
+
+    // For each item in the array, clone it
+    // add aria-hidden to it
+    // add it into the `.scroller-inner`
+    scrollerContent.forEach((item) => {
+      const duplicatedItem = item.cloneNode(true);
+      duplicatedItem.setAttribute("aria-hidden", true);
+      scrollerInner.appendChild(duplicatedItem);
+    });
+  });
+}</script>
+<style type="text/css" id="ct_code_block_css_525">.scroller[data-animated="true"] {
+  overflow: hidden;
+ 
+}
+
+.scroller[data-animated="true"] .inner-scroller {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duration, 40s)
+    var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+  --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+  --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+  --_animation-duration: 20s;
+}
+
+.scroller[data-speed="slow"] {
+  --_animation-duration: 60s;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}</style>
+<script type="text/javascript" id="ct_code_block_js_1148">//** Oxygen Composite Elements Settings Section **//
+//** Edit the variables below to change the behavior of the element. **//
+
+var closeOtherToggles = true; // Set this to true to close all other accordions when an accordion is expanded.
+
+//** That's it, stop editing! **/
+var ready = (callback) => {
+  if (document.readyState != "loading") callback();
+  else document.addEventListener("DOMContentLoaded", callback);
+}
+
+ready(() => { 
+	// Expand the content when row is clicked.
+	document.querySelectorAll('.oxel_accordion__row').forEach(accordion => {
+		accordion.addEventListener('click', function(e) {
+			if (closeOtherToggles) {
+				// Close all other accordions on the page
+				document.querySelectorAll('.oxel_accordion__row--active').forEach(row => {
+					if (row !== accordion) { 
+						row.classList.remove('oxel_accordion__row--active');
+						row.setAttribute('aria-expanded', 'false');
+						row.nextElementSibling.classList.add('oxel_accordion__content__hidden');
+					}
+				});
+			}
+
+			// Toggle the clicked accordion
+			accordion.classList.toggle('oxel_accordion__row--active');
+			accordion.nextElementSibling.classList.toggle('oxel_accordion__content__hidden');
+			
+			// Update the aria-expanded attribute
+			switch (accordion.getAttribute('aria-expanded')) {
+				case 'true':
+					accordion.setAttribute('aria-expanded', 'false');
+					break;
+				case 'false':
+					accordion.setAttribute('aria-expanded', 'true');
+					break;
+				default:
+					accordion.setAttribute('aria-expanded', 'true');
+					break;
+			}
+		});
+	});
+});</script>
+<style type="text/css" id="ct_code_block_css_1148">body.ng-scope .oxel_accordion__content__hidden {
+	max-height: 10000px;
+	opacity: 1;
+	margin-top: 0px;
+	z-index: 1;
+}
+
+.oxel_accordion__row--active  .oxel_accordion__icon {
+	transform: rotate(45deg);
+}</style>
+<!-- /WP_FOOTER --> 
 </body>
 </html>
