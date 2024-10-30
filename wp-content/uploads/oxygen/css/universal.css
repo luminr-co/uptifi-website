@@ -671,6 +671,9 @@ overflow: hidden; mask-image: linear-gradient( to right, rgba(0, 0, 0, 0), rgba(
 }
 .item17 {
 }
+.general-sans {
+ z-index:30;
+}
 .customLinks {
 }
 .heading-texts {
