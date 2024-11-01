@@ -488,6 +488,19 @@ padding-left: 20px;
 					margin: 0 !important;
 				}
 			}
+.myNav {
+}
+.overlay {
+}
+.closebtn {
+}
+.overlay-content {
+}
+@media (max-width: 991px) {
+.overlay-content {
+}
+}
+
 .oxel_accordion {
  border-top-color:#adb4b9;
  border-right-color:#adb4b9;
@@ -505,6 +518,11 @@ padding-left: 20px;
  overflow:hidden;
  background-color:#122854;
 }
+@media (max-width: 991px) {
+.oxel_accordion {
+}
+}
+
 .oxel_accordion__row {
  font-family:Open Sans;
  width:100%;
@@ -580,6 +598,12 @@ display:flex;
 flex-direction:column;
 align-items:flex-start;
 }
+@media (max-width: 991px) {
+.oxel_accordion__content {
+ font-size:1rem;
+}
+}
+
 .oxel_accordion__content__hidden {
  max-height:0px;
  padding-left:8px;
@@ -596,9 +620,32 @@ align-items:flex-start;
 .oxel_accordion__content__hidden.ct-section .ct-section-inner-wrap{
 display:flex;
 }
+@media (max-width: 991px) {
+.oxel_accordion__content__hidden {
+}
+}
+
 .oxel_accordion__row__label {
 color: var(--New-White, #FFF); font-family: "GeneralSans"; font-size: 20px; font-style: normal; font-weight: 400; line-height: 28px; /* 140% */
 }
+@media (max-width: 991px) {
+.oxel_accordion__row__label {
+ font-size:1rem;
+}
+}
+
+@media (max-width: 767px) {
+.oxel_accordion__row__label {
+ text-align:left;
+}
+}
+
+@media (max-width: 479px) {
+.oxel_accordion__row__label {
+ text-align:left;
+}
+}
+
 .hover-div {
 }
 .clients-card {
@@ -831,10 +878,24 @@ display: flex; min-width: 48px; min-height:48px; justify-content: center; align-
 .strat-heading {
 background: linear-gradient(78deg, #1061FF -6.07%, #5CCEFF 58.56%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 28px; font-style: normal; font-weight: 600; line-height: normal;
 }
+@media (max-width: 991px) {
+.strat-heading {
+ text-align:center;
+}
+}
+
 .strat-text {
 color: var(--New-White, #FFF); font-size: 20px; font-style: normal; font-weight: 300; line-height: normal; align-self: stretch;
 }
+@media (max-width: 991px) {
+.strat-text {
+ text-align:center;
+}
+}
+
 .topborder123 {
+}
+.mobileAccordionText {
 }
 @font-face {
   font-family: 'ClashDisplay';
@@ -857,7 +918,29 @@ color: var(--New-White, #FFF); font-size: 20px; font-style: normal; font-weight:
 }
 .general-sans{
   font-family: "GeneralSans";
-}.customLinks li a {
+}
+
+
+@media (max-width: 992px) {
+
+
+  .mobileAccordionText{
+    font-size:1rem;
+  }
+  
+ .clash-display{
+   font-size:2rem;
+ }
+  .heading-span{
+    font-size:2rem;
+  }
+
+  .general-sans{
+    font-size:1rem;
+    font-weight:300;
+  }
+}
+.customLinks li a {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
   transition: background 0.3s ease;
 }
