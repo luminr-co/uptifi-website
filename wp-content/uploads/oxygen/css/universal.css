@@ -875,6 +875,12 @@ gap:24px;
 .number-strat {
 display: flex; min-width: 48px; min-height:48px; justify-content: center; align-items: center; gap: 10px; border-radius: 100px; background: var(--New-Gradient-1, linear-gradient(69deg, #1061FF 31.39%, #5CCEFF 90.03%)); color: var(--New-White, #FFF); text-align: center; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); font-size: 24px; font-style: normal; font-weight: 600; line-height: normal; z-index:19;
 }
+@media (max-width: 991px) {
+.number-strat {
+display: flex; min-width: 32px; min-height:32px; justify-content: center; align-items: center; gap: 10px; border-radius: 100px; background: var(--New-Gradient-1, linear-gradient(69deg, #1061FF 31.39%, #5CCEFF 90.03%)); color: var(--New-White, #FFF); text-align: center; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); font-size: 24px; font-style: normal; font-weight: 600; line-height: normal; z-index:19;
+}
+}
+
 .strat-heading {
 background: linear-gradient(78deg, #1061FF -6.07%, #5CCEFF 58.56%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 28px; font-style: normal; font-weight: 600; line-height: normal;
 }
